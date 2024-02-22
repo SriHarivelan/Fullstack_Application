@@ -1,0 +1,44 @@
+.abt {
+    position: relative;
+    min-height: 100vh; /* Change height to min-height */
+    overflow-y: auto;
+    background: #00C9FF;
+    background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
+    background: linear-gradient(to right, #92FE9D, #00C9FF);
+    display: flex; /* Add display flex */
+    flex-direction: column; /* Add flex direction column */
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap; /* Add flex-wrap */
+    align-items: flex-start; /* Adjust alignment */
+}
+
+.text-left {
+    flex: 1; /* Add flex 1 */
+    padding: 0 20px; /* Add padding */
+    font-size: 18px; /* Adjust font size */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.right-image {
+    max-width: 100%; /* Change max-width */
+    margin: 20px auto; /* Adjust margin */
+    text-align: center; /* Center align image */
+}
+/* 
+.right-image {
+    max-width: 100%;
+    width: 100%; 
+    height: 300px; 
+    margin: 20px auto; 
+    text-align: center;
+    overflow: hidden; 
+}
+
+.right-image img {
+    width:100%;
+    height: 100%;
+    object-fit: contain; 
+} */
